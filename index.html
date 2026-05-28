@@ -441,6 +441,8 @@
     min-height: 200px;
     cursor: pointer;
     transition: border-color 0.2s, background 0.2s;
+    text-decoration: none;
+    color: inherit;
   }
 
   .project-placeholder:hover {
@@ -756,7 +758,7 @@
               <div class="skill-icon indigo" style="margin-bottom:0; flex-shrink:0;">🤖</div>
               <div>
                 <p class="skill-name" style="margin-bottom:0.2rem;">Machine Learning</p>
-                <p class="skill-desc">Classifiacation, Regression, Clustering</p>
+                <p class="skill-desc">Classification, Regression, Clustering</p>
               </div>
             </div>
           </div>
@@ -834,11 +836,15 @@
     <h2 class="section-title">Projects</h2>
     <div class="projects-grid">
 
-      <div class="project-placeholder reveal" onclick="alert('Coming soon! Tambahkan project pertamamu di sini.')">
-        <div class="project-plus">+</div>
-        <p class="project-ph-text" style="font-weight:500; color:var(--muted-light); margin-bottom:0.3rem;">Project Pertama</p>
-        <p class="project-ph-text">Tempat untuk menambahkan project Data Science atau machine learning kamu</p>
-      </div>
+        <a href="https://github.com/PatrickJo3/customer-segmentation-clustering" target="_blank" rel="noopener noreferrer" class="project-placeholder reveal">
+          <div class="project-plus">📊</div>
+          <p class="project-ph-text" style="font-weight:500; color:var(--muted-light); margin-bottom:0.3rem;">
+            Customer Segmentation Clustering
+          </p>
+          <p class="project-ph-text">
+            Segmentasi pelanggan menggunakan K-Means Clustering dengan pendekatan RFM pada dataset Online Retail.
+          </p>
+        </a>
 
       <div class="project-placeholder reveal" onclick="alert('Coming soon!')">
         <div class="project-plus">+</div>
